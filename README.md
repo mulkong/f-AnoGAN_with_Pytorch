@@ -16,7 +16,7 @@ paper link : https://www.sciencedirect.com/science/article/abs/pii/S136184151830
 
 본 논문에서는 biomarker candidates를 할 수 있는 anomalous images 및 image segments를 식별할 수 있는 GAN 기반 Unsuperviswd Learning 접근법인 f-AnoGAN(fast AnoGAN)을 제안한다.
 
-**[fase mapping technique of new data]**
+**[fast mapping technique of new data]**
 
 우리는 normal data로 Generator model을 학습 시키고 GAN의 latent space에 query data의 fast mapping technique를 제안하고 평가한다.
 mapping 방법은 Encoder를 기반으로 하며, Discriminator feature redidual error 및 image reconstruction error G(z)를 포함하는 훈련된 모델을 기반으로 anomaly score를 통해 anomaly detection이 진행된다.
@@ -29,10 +29,10 @@ Optical Coherence Tomography(OCT) 촬영 데이터에 대한 실험에서 본 �
 ### <br> Auto Encoder & VAE </br>
 
 🗣AE와 VAE의 Encoder 사용한 코드들을 순차적으로 정리할 예정입니다.
-- f-AnoGAN MNIST with Pytorch (using Tensorboard)
-- f-AnoGAN CIFAR-10 with Pytorch (using Tensorboard)
-- f-AnoGAN CelebA with Pytorch (using Tensorboard) 👉***High Resolution***
-- f-AnoGAN CelebA-HQ with Pytorch (using Tensorboard) 👉***High Resolution***
+- f-AnoGAN MNIST with Pytorch (using Tensorboard) 
+- f-AnoGAN CIFAR-10 with Pytorch (using Tensorboard) [업로드 예정] 
+- f-AnoGAN CelebA with Pytorch (using Tensorboard) 👉***High Resolution*** [업로드 예정]
+- f-AnoGAN CelebA-HQ with Pytorch (using Tensorboard) 👉***High Resolution*** [업로드 예정]
 
 
 
