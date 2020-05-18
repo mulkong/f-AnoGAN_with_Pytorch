@@ -24,3 +24,20 @@ mapping 방법은 Encoder를 기반으로 하며, Discriminator feature redidual
 Optical Coherence Tomography(OCT) 촬영 데이터에 대한 실험에서 본 논문에서는 제안된 방법을 대체 접근법(AnoGAN, BiGAN etc.)과 비교하고 성능을 뛰어 넘어 Anomaly Detection의 정확도를 높인다는 포괄적인 경험적인 증거를 제공한다. 또한 두 명의 망막 전문가를 대상으로한 시각적 테스트 결과 generation된 이미지가 실제 망막 OCT 이미지와 잘 구별이 안되는 것으로 나타냈다.
 
 ![f-anoGAN](assets/figure_1.png)
+
+## Code contents
+### <br> Auto Encoder & VAE </br>
+
+🗣AE와 VAE의 Encoder 사용한 코드들을 순차적으로 정리할 예정입니다.
+- f-AnoGAN MNIST with Pytorch (using Tensorboard)
+- f-AnoGAN CIFAR-10 with Pytorch (using Tensorboard)
+- f-AnoGAN CelebA with Pytorch (using Tensorboard) 👉***High Resolution***
+- f-AnoGAN CelebA-HQ with Pytorch (using Tensorboard) 👉***High Resolution***
+
+
+
+## Reference
+
+- [tSchlegl/f-AnoGAN: Code for reproducing f-AnoGAN training and anomaly scoring](https://github.com/tSchlegl/f-AnoGAN)
+- [PyTorch-GAN/wgan_gp.py at master · eriklindernoren/PyTorch-GAN](https://github.com/eriklindernoren/PyTorch-GAN/blob/master/implementations/wgan_gp/wgan_gp.py)
+- [A03ki/f-AnoGAN](https://github.com/A03ki/f-AnoGAN)
