@@ -1,6 +1,6 @@
 # Pytorch implementation of f-AnoGAN
 
-<b> Abstract </b>
+## Abstract
 
 **[문제점]**
 
