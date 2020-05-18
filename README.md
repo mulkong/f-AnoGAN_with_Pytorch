@@ -2,7 +2,7 @@
 
 <b> Abstract </b>
 
-**[문제점]**
+**[문제점]**\n
 정확한 annotation은 시간이 많이 들기 때문에 clinical imaging에서 전문가가 직접 annotation을 표시한 데이터를 얻는 것은 어렵다. 또한 모든 병변에 대해 제대로 표시되지 않을 수도 있으며 annotation에 대해서도 정확하기 이 병변이 어떤 병변인지 정확한 설명이 되어있지 않은 경우도 있다.
 
 **[Supervised Learning의 장단점]**
