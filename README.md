@@ -1,4 +1,4 @@
-# Pytorch implementation of f-AnoGAN
+# f-AnoGAN: Fast Unsupervised Anomaly detection with GAN using Pytorch
 
 ## Abstract
 
