@@ -29,7 +29,8 @@ Optical Coherence Tomography(OCT) 촬영 데이터에 대한 실험에서 본 �
 ### <br> Auto Encoder & VAE </br>
 
 🗣AE와 VAE의 Encoder 사용한 코드들을 순차적으로 정리할 예정입니다.
-- f-AnoGAN MNIST with Pytorch (using Tensorboard) 
+- ✔️ f-AnoGAN MNIST(GAN + AutoEncoder) with Pytorch (using Tensorboard)
+- ✔️ f-AnoGAN MNIST(DCGAN + AutoEncoder) with Pytorch (using Tensorboard) 
 - f-AnoGAN CIFAR-10 with Pytorch (using Tensorboard) [업로드 예정] 
 - f-AnoGAN CelebA with Pytorch (using Tensorboard) 👉***High Resolution*** [업로드 예정]
 - f-AnoGAN CelebA-HQ with Pytorch (using Tensorboard) 👉***High Resolution*** [업로드 예정]
