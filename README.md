@@ -35,7 +35,14 @@ Optical Coherence Tomography(OCT) 촬영 데이터에 대한 실험에서 본 �
 - f-AnoGAN CelebA with Pytorch (using Tensorboard) 👉***High Resolution*** [업로드 예정]
 - f-AnoGAN CelebA-HQ with Pytorch (using Tensorboard) 👉***High Resolution*** [업로드 예정]
 
+## Result
+### 1. GAN + AutoEncoder
+<center><img src="assets/01.GAN_AE_results.png" width="300" hight="300"></center>
+<center><img src="assets/01.GAN_AE_anomaly_detection.png" width="300" hight="300"></center>
 
+### 2. DCGAN + AutoEncoder
+<center><img src="assets/02.DCGAN_AE_results.png" width="300" hight="300"></center>
+<center><img src="assets/02.DCGAN_AE_anomaly_detection.png" width="300" hight="300"></center>
 
 ## Reference
 
