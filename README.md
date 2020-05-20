@@ -37,12 +37,12 @@ Optical Coherence Tomography(OCT) 촬영 데이터에 대한 실험에서 본 �
 
 ## Result
 ### 1. GAN + AutoEncoder
-<center><img src="assets/01.GAN_AE_results.png" width="300" hight="300"></center>
-<center><img src="assets/01.GAN_AE_anomaly_detection.png" width="300" hight="300"></center>
+<p align="center"><img src="assets/01.GAN_AE_results.png" width="400" hight="400"></p>
+<p align="center"><img src="assets/01.GAN_AE_anomaly_detection.png" width="400" hight="400"></pr>
 
 ### 2. DCGAN + AutoEncoder
-<center><img src="assets/02.DCGAN_AE_results.png" width="300" hight="300"></center>
-<center><img src="assets/02.DCGAN_AE_anomaly_detection.png" width="300" hight="300"></center>
+<p align="center"><img src="assets/02.DCGAN_AE_results.png" width="400" hight="400"></p>
+<p align="center"><img src="assets/02.DCGAN_AE_anomaly_detection.png" width="400" hight="400"></p>
 
 ## Reference
 
