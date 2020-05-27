@@ -39,13 +39,23 @@ Optical Coherence Tomography(OCT) 촬영 데이터에 대한 실험에서 본 �
 - f-AnoGAN CelebA-HQ with Pytorch (using Tensorboard) 👉***High Resolution*** [업로드 예정]
 
 ## Result
-### 1. GAN + AutoEncoder
+### 1. GAN + AutoEncoder - MNIST
 <p align="center"><img src="assets/01.GAN_AE_results.png" width="400" hight="400"></p>
 <p align="center"><img src="assets/01.GAN_AE_anomaly_detection.png" width="400" hight="400"></pr>
 
-### 2. DCGAN + AutoEncoder
+### 2. DCGAN + AutoEncoder - MNIST
 <p align="center"><img src="assets/02.DCGAN_AE_results.png" width="400" hight="400"></p>
 <p align="center"><img src="assets/02.DCGAN_AE_anomaly_detection.png" width="400" hight="400"></p>
+
+### 3. DCGAN + AutoEncoder - CIFAR-10
+<p align="center"><img src="assets/03.DCGAN_AE_results.png" width="400" hight="400"></p>
+<p align="center"><img src="assets/03.DCGAN_AE_anomaly_detection.png" width="400" hight="400"></p>
+
+- 문제점 : DCGAN으로만 학습을 할때 좋은 퀄리티가 나올 때 가지 학습이 잘 안됨, 그래서 Fake Image를 만들게 되더라도 흐릿한 이미지를 만들게되서 Anomaly Detection이 잘 이루어지지 않음. [AUC : 0.4396]
+- 해결책 : DCGAN 보다 안정적으로 학습을 하는 모델을 사용 (ex, PGGAN, WGGAN etc.)
+- ⭐️AutoEncoder를 사용해서 Mapping이 비교적 제대로 이루어짐.
+
+### 4. DCGAN + VAE - CIFAR-10
 
 ## Reference
 
