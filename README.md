@@ -12,7 +12,7 @@ paper link : https://www.sciencedirect.com/science/article/abs/pii/S136184151830
 
 전문가로부터 분류된 training data를 상요할 수 있는 경우 Supervised Learning이 좋은 결과를 얻는 반면, annotation이 표시된 병변으로만 제한이 된다.
 
-**[Unsupervised Learning으로 접근한 f-AnoGANd을 제안함]**
+**[Unsupervised Learning으로 접근한 f-AnoGAN을 제안함]**
 
 본 논문에서는 biomarker candidates를 할 수 있는 anomalous images 및 image segments를 식별할 수 있는 GAN 기반 Unsuperviswd Learning 접근법인 f-AnoGAN(fast AnoGAN)을 제안한다.
 
@@ -31,6 +31,7 @@ Optical Coherence Tomography(OCT) 촬영 데이터에 대한 실험에서 본 �
 🗣AE와 VAE의 Encoder 사용한 코드들을 순차적으로 정리할 예정입니다.
 - ✔️ f-AnoGAN MNIST(GAN + AutoEncoder) with Pytorch (using Tensorboard)
 - ✔️ f-AnoGAN MNIST(DCGAN + AutoEncoder) with Pytorch (using Tensorboard) 
+- f-AnoGAN MNIST(DCGAN + VAE) with Pytorch (using Tensorboard) 
 - f-AnoGAN CIFAR-10 (GAN + AutoEncoder) with Pytorch (using Tensorboard) [업로드 예정] 
 - f-AnoGAN CIFAR-10 (DCGAN + AutoEncoder) with Pytorch (using Tensorboard) [업로드 예정] 
 - f-AnoGAN CIFAR-10 (GAN + VAE) with Pytorch (using Tensorboard) [업로드 예정] 
